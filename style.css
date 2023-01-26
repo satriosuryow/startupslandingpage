@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #151719 !important;
+}
+hr {
+  background-color: #2c3e50;
+}
+
+.nav-item {
+  padding-right: 3.5rem;
+}
+
+.nav-item a {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #95a5a6;
+}
+.navbar .navbar-nav button {
+  background-color: #6163ff;
+  padding: 0.1rem 1.7rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  color: #e7e8ee;
+}
+
+.mid h1 {
+  color: #eceded;
+  font-weight: 900;
+}
+.mid h1 span {
+  color: #5658dd;
+}
+.mid p {
+  width: 60%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #97a4ae;
+  word-spacing: 0.1rem;
+}
+
+.mid .row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.mid .row button {
+  background-color: #6163ff;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  color: #e7e8ee;
+  margin: 0 0.6rem;
+}
+.mid .row button:nth-child(2) {
+  background-color: #25282c;
+  color: #e7e8ee;
+}
+h1.text2 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.features .row .one img {
+  background-color: #5658dd;
+  color: #fff;
+  border-radius: 50px;
+}
+.features .row .one h3 {
+  color: #eceded;
+  font-weight: 700;
+}
+.features .row .one p {
+  color: #eceded;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.about h1 {
+  color: #e7e8ee;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.about p {
+  color: #97a4ae;
+  font-weight: 400;
+  font-size: 1.3rem;
+  word-spacing: 0.01rem;
+}
+
+.about h6 {
+  color: #5658dd;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.about h2 {
+  font-weight: 900;
+  font-size: 2.2rem;
+  color: #e7e8ee;
+}
+
+/* feedback  */
+
+.feedback h1 {
+  color: #e7e8ee;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.feedback p {
+  color: #97a4ae;
+  font-weight: 400;
+  font-size: 1.3rem;
+  word-spacing: 0.01rem;
+}
+
+.feedback h6 {
+  color: #5658dd;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.feedback h2 {
+  font-weight: 900;
+  font-size: 2.2rem;
+  color: #e7e8ee;
+}
+.feedback i {
+  color: #6163ff;
+  font-size: 2rem;
+}
+.feedback .row div {
+  background-color: #25282c;
+  padding: 1rem 1.7rem;
+}
+.feedback .row p {
+  color: #97a4ae;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.feedback .row h4 {
+  color: #eceded;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.feedback .row span {
+  color: #1cb58a;
+}
+
+.sub {
+  background-color: #5658dd;
+  padding: 4rem 3.3rem;
+  border-radius: 3px;
+}
+.sub .row h2 {
+  color: #eceded;
+  font-weight: 900;
+  font-size: 2.2rem;
+}
+.sub .row input {
+  width: 30%;
+  border-style: none;
+  outline: none;
+  padding: 0.9rem 1rem;
+  border-radius: 3px;
+}
